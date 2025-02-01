@@ -169,3 +169,7 @@ output "loadbalancer" {
 variable "test1" {
   default = "test1"
 }
+
+variable "test2" {
+  default = "test2"
+}
