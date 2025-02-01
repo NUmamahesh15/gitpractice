@@ -165,3 +165,7 @@ resource "aws_lb_listener" "list" {
 output "loadbalancer" {
   value = aws_lb.alb.dns_name
 }
+
+variable "test1" {
+  default = "test1"
+}
